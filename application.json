@@ -1,0 +1,20 @@
+{
+  "appIsExample": false,
+  "appLayout": {
+    "type": "MOBILE"
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#E3DEFF",
+  "evaluationVersion": 2,
+  "icon": "money",
+  "pages": [
+    {
+      "id": "Net Worth Calculator",
+      "isDefault": true
+    }
+  ],
+  "unpublishedAppLayout": {
+    "type": "MOBILE"
+  }
+}
