@@ -40,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 46,
   "shouldTruncate": false,
-  "text": "Asset (Total: {{ AssetStore.totalAssets() }})",
+  "text": "Asset (Total: ${{ AssetStore.totalAssets() }})",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 6,
