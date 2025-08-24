@@ -40,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "Risk: {{ HF_Suggest.data?.riskTier ?? \"—\" }}\nEAR: {{ (((HF_Suggest.data?.expectedAnnualReturn ?? 0) * 100).toFixed(1)) }}%\nSplit — Cash: {{ HF_Suggest.data?.portfolioSplit?.Cash ?? 0 }}% ·\nBonds: {{ HF_Suggest.data?.portfolioSplit?.Bonds ?? 0 }}% ·\nEquities: {{ HF_Suggest.data?.portfolioSplit?.Equities ?? 0 }}%\n",
+  "text": "Risk: {{ HF_Suggest.data?.riskTier ?? \"—\" }}\nEAR: {{ (((HF_Suggest.data?.expectedAnnualReturn ?? 0) * 100).toFixed(1)) }}%\nSplit — Cash: {{ HF_Suggest.data?.portfolioSplit?.Cash ?? 0 }}% \nBonds: {{ HF_Suggest.data?.portfolioSplit?.Bonds ?? 0 }}% \nEquities: {{ HF_Suggest.data?.portfolioSplit?.Equities ?? 0 }}%\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 126,
