@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n  \"assets\": {{ appsmith.store.assets || [] }},\n  \"liabilities\": {{ appsmith.store.liabilities || [] }},\n  \"risk_override\": {{ SelectRisk?.selectedOptionValue || null }},\n  \"income_monthly\": {{ IncomeInput?.text ? Number(IncomeInput.text) : null }}\n}\n",
+      "body": "{\n\t\"assets\": {{ \n\t(appsmith.store.assets || []).map(a => ({\n\t\tid: a.id,\n\t\tname: a.name,\n\t\tamount: a.amount === \"\" || a.amount == null ? 0 : Number(a.amount)\n\t}))\n\t}},\n\t\"liabilities\": {{\n\t(appsmith.store.liabilities || []).map(l => ({\n\t\tid: l.id,\n\t\tname: l.name,\n\t\tamount: l.amount === \"\" || l.amount == null ? 0 : Number(l.amount)\n\t}))\n\t}},\n\t\"risk_override\": {{ SelectRisk.selectedOptionValue || null }},\n\t\"income_monthly\": {{ IncomeInput.text ? Number(IncomeInput.text) : null }}\n}\n",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

@@ -40,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 48,
   "shouldTruncate": false,
-  "text": "Net Worth: ${{ (HF_Suggest.data?.netWorth || 0).toLocaleString() }}\n",
+  "text": "Net Worth: ${{ Number(HF_Suggest.data?.netWorth ?? 0).toLocaleString() }}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 109,

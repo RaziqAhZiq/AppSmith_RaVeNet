@@ -40,7 +40,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "Suggested Monthly Investment (per person): \n${{ HF_Suggest.data?.suggestions?.investmentPerPerson?.toLocaleString() }}\n(couple: ${{ HF_Suggest.data?.suggestions?.investmentCouple?.toLocaleString() }})\n\nSuggested Monthly Joint Expenditure (per person):\n${{ HF_Suggest.data?.suggestions?.jointSpendPerPerson?.toLocaleString() }}\n(couple: ${{ HF_Suggest.data?.suggestions?.jointSpendCouple?.toLocaleString() }})\n",
+  "text": "Suggested Monthly Investment (per person): \n${{ Number(HF_Suggest.data?.suggestions?.investmentPerPerson ?? 0).toLocaleString() }}\n(couple: ${{ Number(HF_Suggest.data?.suggestions?.investmentCouple ?? 0).toLocaleString() }})\n\nSuggested Monthly Joint Expenditure (per person): \n${{ Number(HF_Suggest.data?.suggestions?.jointSpendPerPerson ?? 0).toLocaleString() }}\n(couple: ${{ Number(HF_Suggest.data?.suggestions?.jointSpendCouple ?? 0).toLocaleString() }})\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 113,
