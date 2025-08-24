@@ -79,6 +79,9 @@
     },
     {
       "key": "chartData.9olejfh8bv.data"
+    },
+    {
+      "key": "xAxisName"
     }
   ],
   "dynamicPropertyPathList": [],
@@ -110,6 +113,6 @@
   "version": 1,
   "widgetId": "6vtvosabh6",
   "widgetName": "Chart1",
-  "xAxisName": "Category",
+  "xAxisName": "Months: {{MonthsSlider.value}}",
   "yAxisName": "$"
 }
