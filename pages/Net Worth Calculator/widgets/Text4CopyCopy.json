@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 107,
+  "bottomRow": 136,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,20 +30,20 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 68,
   "needsErrorInfo": false,
-  "originalBottomRow": 107,
-  "originalTopRow": 97,
+  "originalBottomRow": 136,
+  "originalTopRow": 126,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 63,
   "shouldTruncate": false,
   "text": "Risk: {{ HF_Suggest.data?.riskTier }}\nEAR: {{ ((HF_Suggest.data?.expectedAnnualReturn || 0) * 100).toFixed(1) }}%\nSplit — Cash: {{ HF_Suggest.data?.portfolioSplit?.Cash }}% ·\nBonds: {{ HF_Suggest.data?.portfolioSplit?.Bonds }}% ·\nEquities: {{ HF_Suggest.data?.portfolioSplit?.Equities }}%\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 97,
+  "topRow": 126,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
