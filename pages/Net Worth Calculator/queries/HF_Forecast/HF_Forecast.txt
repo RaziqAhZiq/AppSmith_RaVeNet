@@ -1,6 +1,18 @@
 {
-  "assets": {{ appsmith.store.assets || [] }},
-  "liabilities": {{ appsmith.store.liabilities || [] }},
-  "months": {{ MonthsSlider?.value || 36 }},
-  "risk_override": {{ SelectRisk?.selectedOptionValue || null }}
+  "assets": {{ 
+    (appsmith.store.assets || []).map(a => ({
+      id: a.id,
+      name: a.name,
+      amount: a.amount ? Number(a.amount) : 0
+    })) 
+  }},
+  "liabilities": {{ 
+    (appsmith.store.liabilities || []).map(l => ({
+      id: l.id,
+      name: l.name,
+      amount: l.amount ? Number(l.amount) : 0
+    })) 
+  }},
+  "months": {{ MonthsSlider.value || 36 }},
+  "risk_override": {{ SelectRisk.selectedOptionValue || null }}
 }
