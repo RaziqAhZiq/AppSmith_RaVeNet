@@ -24,24 +24,11 @@
   "key": "jj7w1gcxrt",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Months Slider",
+  "labelText": "How far ahead should we forecast?\n",
   "labelTextSize": "0.875rem",
   "labelWidth": 8,
-  "leftColumn": 1,
-  "marks": [
-    {
-      "label": "25%",
-      "value": 25
-    },
-    {
-      "label": "50%",
-      "value": 50
-    },
-    {
-      "label": "75%",
-      "value": 75
-    }
-  ],
+  "leftColumn": 0,
+  "marks": "[\n  { \"value\": 12,  \"label\": \"1 yr\" },\n  { \"value\": 24,  \"label\": \"2 yr\" },\n  { \"value\": 36,  \"label\": \"3 yr\" },\n  { \"value\": 48,  \"label\": \"4 yr\" },\n  { \"value\": 60,  \"label\": \"5 yr\" },\n  { \"value\": 72,  \"label\": \"6 yr\" },\n  { \"value\": 84,  \"label\": \"7 yr\" },\n  { \"value\": 96,  \"label\": \"8 yr\" },\n  { \"value\": 108, \"label\": \"9 yr\" },\n  { \"value\": 120, \"label\": \"10 yr\" }\n]",
   "max": "120",
   "min": "1",
   "mobileBottomRow": 94,
@@ -57,13 +44,13 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 62,
+  "rightColumn": 63,
   "shouldScroll": false,
   "shouldTruncate": false,
   "showMarksLabel": true,
   "sliderSize": "m",
   "step": 1,
-  "tooltipAlwaysOn": false,
+  "tooltipAlwaysOn": true,
   "topRow": 101,
   "type": "NUMBER_SLIDER_WIDGET",
   "version": 1,
