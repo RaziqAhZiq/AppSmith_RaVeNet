@@ -51,7 +51,7 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "onTextChanged": "{{ AssetStore.setAssetById(currentItem.id, \"name\", NameInput.text) }}\n",
+  "onTextChanged": "{{ AssetStore.setAssetById(currentItem.id, \"name\", NameInput.text) }}\n\n{{ _.debounce(() => { HF_Suggest.run(); HF_Forecast.run(); }, 400)() }}\n",
   "parentColumnSpace": 6.1923828125,
   "parentId": "529j6v4nx3",
   "parentRowSpace": 10,

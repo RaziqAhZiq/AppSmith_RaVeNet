@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 76,
+  "bottomRow": 80,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -21,7 +21,7 @@
   "isLoading": false,
   "isVisible": true,
   "key": "y4alooi23d",
-  "leftColumn": 0,
+  "leftColumn": 1,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -30,8 +30,8 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 68,
   "needsErrorInfo": false,
-  "originalBottomRow": 76,
-  "originalTopRow": 68,
+  "originalBottomRow": 80,
+  "originalTopRow": 72,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -40,10 +40,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "Suggested Monthly Investment/Savings (per person): \n${{ AssetStore.suggestInvestmentPerPerson().toLocaleString() }}\n\n (couple: ${{ AssetStore.suggestInvestmentCouple().toLocaleString() }})\n",
+  "text": "Suggested Monthly Investment/Savings \nper person: ${{ AssetStore.suggestInvestmentPerPerson().toLocaleString() }}\n\n (couple: ${{ AssetStore.suggestInvestmentCouple().toLocaleString() }})\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 68,
+  "topRow": 72,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

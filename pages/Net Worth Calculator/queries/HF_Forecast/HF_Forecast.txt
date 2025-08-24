@@ -1,0 +1,6 @@
+{
+  "assets": {{ appsmith.store.assets || [] }},
+  "liabilities": {{ appsmith.store.liabilities || [] }},
+  "months": {{ MonthsSlider?.value || 36 }},
+  "risk_override": {{ SelectRisk?.selectedOptionValue || null }}
+}

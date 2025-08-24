@@ -51,7 +51,7 @@
   "mobileRightColumn": 25,
   "mobileTopRow": 1,
   "needsErrorInfo": false,
-  "onTextChanged": "{{ AssetStore.setLiabilityById(currentItem.id, \"name\", NameInput2.text)\n}}",
+  "onTextChanged": "{{ AssetStore.setLiabilityById(currentItem.id, \"name\", NameInput2.text)\n}}\n\n{{ _.debounce(() => { HF_Suggest.run(); HF_Forecast.run(); }, 400)() }}",
   "parentColumnSpace": 6.1923828125,
   "parentId": "9sxnc0blv8",
   "parentRowSpace": 10,

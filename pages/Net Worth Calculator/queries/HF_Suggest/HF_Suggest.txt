@@ -1,0 +1,6 @@
+{
+  "assets": {{ appsmith.store.assets || [] }},
+  "liabilities": {{ appsmith.store.liabilities || [] }},
+  "risk_override": {{ SelectRisk?.selectedOptionValue || null }},
+  "income_monthly": {{ IncomeInput?.text ? Number(IncomeInput.text) : null }}
+}

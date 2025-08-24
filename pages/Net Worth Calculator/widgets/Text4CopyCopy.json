@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 88,
+  "bottomRow": 147,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 68,
   "needsErrorInfo": false,
-  "originalBottomRow": 88,
-  "originalTopRow": 80,
+  "originalBottomRow": 140,
+  "originalTopRow": 132,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -40,13 +40,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "Suggested Monthly Joint Expenditure \nper person: ${{ AssetStore.suggestJointSpendPerPerson().toLocaleString() }}\n\n (couple: ${{ AssetStore.suggestJointSpendCouple().toLocaleString() }})\n",
+  "text": "Risk: {{ HF_Suggest.data?.riskTier }}\nEAR: {{ ((HF_Suggest.data?.expectedAnnualReturn || 0) * 100).toFixed(1) }}%\nSplit — Cash: {{ HF_Suggest.data?.portfolioSplit?.Cash }}% ·\nBonds: {{ HF_Suggest.data?.portfolioSplit?.Bonds }}% ·\nEquities: {{ HF_Suggest.data?.portfolioSplit?.Equities }}%\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 80,
+  "topRow": 137,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "2hyh599qui",
-  "widgetName": "Text4Copy"
+  "widgetId": "88qcgkka3r",
+  "widgetName": "Text4CopyCopy"
 }

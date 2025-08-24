@@ -1,0 +1,72 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "bottomRow": 119,
+  "defaultValue": "36",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "onChange"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onChange"
+    }
+  ],
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "jj7w1gcxrt",
+  "labelAlignment": "left",
+  "labelPosition": "Top",
+  "labelText": "Months Slider",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 8,
+  "leftColumn": 1,
+  "marks": [
+    {
+      "label": "25%",
+      "value": 25
+    },
+    {
+      "label": "50%",
+      "value": 50
+    },
+    {
+      "label": "75%",
+      "value": 75
+    }
+  ],
+  "max": "120",
+  "min": "1",
+  "mobileBottomRow": 94,
+  "mobileLeftColumn": 13,
+  "mobileRightColumn": 53,
+  "mobileTopRow": 86,
+  "needsErrorInfo": false,
+  "onChange": "{{ _.debounce(() => HF_Forecast.run(), 200)() }}\n",
+  "originalBottomRow": 119,
+  "originalTopRow": 111,
+  "parentColumnSpace": 6.84375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 62,
+  "shouldScroll": false,
+  "shouldTruncate": false,
+  "showMarksLabel": true,
+  "sliderSize": "m",
+  "step": 1,
+  "tooltipAlwaysOn": false,
+  "topRow": 111,
+  "type": "NUMBER_SLIDER_WIDGET",
+  "version": 1,
+  "widgetId": "dnx2sqkghj",
+  "widgetName": "MonthsSlider"
+}
