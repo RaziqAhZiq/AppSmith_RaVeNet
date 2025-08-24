@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 136,
+  "bottomRow": 97,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,20 +30,20 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 68,
   "needsErrorInfo": false,
-  "originalBottomRow": 131,
-  "originalTopRow": 123,
+  "originalBottomRow": 97,
+  "originalTopRow": 84,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 63,
+  "rightColumn": 64,
   "shouldTruncate": false,
   "text": "Suggested Monthly Investment (per person): \n${{ HF_Suggest.data?.suggestions?.investmentPerPerson?.toLocaleString() }}\n(couple: ${{ HF_Suggest.data?.suggestions?.investmentCouple?.toLocaleString() }})\n\nSuggested Monthly Joint Expenditure (per person):\n${{ HF_Suggest.data?.suggestions?.jointSpendPerPerson?.toLocaleString() }}\n(couple: ${{ HF_Suggest.data?.suggestions?.jointSpendCouple?.toLocaleString() }})\n",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 123,
+  "topRow": 84,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

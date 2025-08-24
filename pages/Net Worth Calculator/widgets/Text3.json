@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 67,
+  "bottomRow": 84,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -30,8 +30,8 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 63,
   "needsErrorInfo": false,
-  "originalBottomRow": 68,
-  "originalTopRow": 64,
+  "originalBottomRow": 84,
+  "originalTopRow": 80,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
@@ -40,10 +40,10 @@
   "responsiveBehavior": "fill",
   "rightColumn": 49,
   "shouldTruncate": false,
-  "text": "Net Worth: ${{ (AssetStore.totalAssets() - AssetStore.totalLiabilities()).toLocaleString() }}\n",
+  "text": "Net Worth: ${{ (HF_Suggest.data?.netWorth || 0).toLocaleString() }}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 63,
+  "topRow": 80,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

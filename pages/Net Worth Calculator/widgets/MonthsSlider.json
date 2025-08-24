@@ -1,7 +1,7 @@
 {
   "accentColor": "{{appsmith.theme.colors.primaryColor}}",
   "animateLoading": true,
-  "bottomRow": 119,
+  "bottomRow": 80,
   "defaultValue": "36",
   "dynamicBindingPathList": [
     {
@@ -24,7 +24,7 @@
   "key": "jj7w1gcxrt",
   "labelAlignment": "left",
   "labelPosition": "Top",
-  "labelText": "Months Slider",
+  "labelText": "How far ahead should we forecast?",
   "labelTextSize": "0.875rem",
   "labelWidth": 8,
   "leftColumn": 1,
@@ -50,8 +50,8 @@
   "mobileTopRow": 86,
   "needsErrorInfo": false,
   "onChange": "{{ _.debounce(() => HF_Forecast.run(), 200)() }}\n",
-  "originalBottomRow": 119,
-  "originalTopRow": 111,
+  "originalBottomRow": 80,
+  "originalTopRow": 72,
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,
@@ -64,7 +64,7 @@
   "sliderSize": "m",
   "step": 1,
   "tooltipAlwaysOn": false,
-  "topRow": 111,
+  "topRow": 72,
   "type": "NUMBER_SLIDER_WIDGET",
   "version": 1,
   "widgetId": "dnx2sqkghj",
