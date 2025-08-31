@@ -29,6 +29,10 @@
     {
       "id": "Net Worth Calculator",
       "isDefault": true
+    },
+    {
+      "id": "Portfolio Splitter",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {

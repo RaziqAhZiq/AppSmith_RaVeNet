@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "68a1eb485a6a5a7e1f74ff12_7b72f1b3-7957-466f-9aef-67328c8ad863",
+  "id": "Portfolio Splitter_StockJS",
+  "unpublishedCollection": {
+    "name": "StockJS",
+    "pageId": "Portfolio Splitter",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "tickers",
+        "value": "[\"MSFT\", \"IBM\", \"IONQ\", \"QBTS\", \"QUBT\", \"RGTI\", \"WKEY\", \"LAES\", \"SEER\", \"HON\"]"
+      }
+    ]
+  }
+}
