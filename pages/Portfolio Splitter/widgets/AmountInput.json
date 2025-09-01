@@ -9,12 +9,15 @@
   "dynamicBindingPathList": [
     {
       "key": "accentColor"
+    },
+    {
+      "key": "validation"
     }
   ],
   "dynamicHeight": "FIXED",
   "dynamicTriggerPathList": [],
   "iconAlign": "left",
-  "inputType": "NUMBER",
+  "inputType": "TEXT",
   "isDisabled": false,
   "isLoading": false,
   "isRequired": false,
@@ -47,6 +50,7 @@
   "showStepArrows": false,
   "topRow": 4,
   "type": "INPUT_WIDGET_V2",
+  "validation": "{{ true }}",
   "version": 2,
   "widgetId": "qnxx178fia",
   "widgetName": "AmountInput"

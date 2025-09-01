@@ -36,7 +36,7 @@
   "mobileRightColumn": 20,
   "mobileTopRow": 12,
   "needsErrorInfo": false,
-  "onClick": "{{ QuoteAPI.run() }}",
+  "onClick": "{{ StockJS.refresh().then(() => showAlert('Prices updated', 'success')) }}",
   "parentColumnSpace": 6.84375,
   "parentId": "0",
   "parentRowSpace": 10,

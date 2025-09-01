@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 77,
+  "bottomRow": 72,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -33,7 +33,7 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 74,
   "needsErrorInfo": false,
-  "originalBottomRow": 78,
+  "originalBottomRow": 77,
   "originalTopRow": 73,
   "overflow": "NONE",
   "parentColumnSpace": 6.84375,
@@ -41,12 +41,12 @@
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{\n  (() => {\n    const rows = StockJS.rows(Number(AmountInput.text || 0));\n    if (!rows.length) return \"\";\n    const totalSpend = rows[0].totalSpend || 0;\n    const totalLeft  = rows[0].totalLeftover || 0;\n    return `Total spend: $${totalSpend.toFixed(2)}                             Leftover: $${totalLeft.toFixed(2)}`;\n  })()\n}}\n",
+  "text": "{{\n  (() => {\n    const rows = StockJS.rows(Number(AmountInput.text));\n    if (!rows.length) return \"\";\n    const totalSpend = rows[0].totalSpend || 0;\n    const totalLeft  = rows[0].totalLeftover || 0;\n    return `Total spend: $${totalSpend.toFixed(2)}               Leftover: $${totalLeft.toFixed(2)}`;\n  })()\n}}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
-  "topRow": 73,
+  "topRow": 68,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
