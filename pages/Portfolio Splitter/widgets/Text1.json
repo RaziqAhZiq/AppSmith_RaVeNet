@@ -43,7 +43,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 63,
   "shouldTruncate": false,
-  "text": "{{\n  (() => {\n    const rows = StockJS.rows(Number(AmountInput.text));\n    if (!rows.length) return \"\";\n    const totalSpend = rows[0].totalSpend || 0;\n    const totalLeft  = rows[0].totalLeftover || 0;\n    return `Total spend: $${totalSpend.toFixed(2)}               Leftover: $${totalLeft.toFixed(2)}`;\n  })()\n}}",
+  "text": "{{\n  (() => {\n    const rows = StockJS.rows(Number(AmountInput.text));\n    if (!rows.length) return \"\";\n    const totalSpend = rows[0].totalSpend || 0;\n    const totalLeft  = rows[0].totalLeftover || 0;\n    return `Total spend: $${totalSpend.toFixed(2)}  |  Leftover: $${totalLeft.toFixed(2)}`;\n  })()\n}}",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 68,
